@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ad-portfolio/static/css/main.9b93ea92.css",
+    "main.css": "/ad-portfolio/static/css/main.c061586a.css",
     "main.js": "/ad-portfolio/static/js/main.254a2166.js",
     "static/media/img6.jpg": "/ad-portfolio/static/media/img6.3ba7119cd9d7875a6acb.jpg",
     "static/media/img1.jpg": "/ad-portfolio/static/media/img1.c86b49e356531412fafd.jpg",
@@ -46,11 +46,11 @@
     "static/media/Garet-Heavy.woff2": "/ad-portfolio/static/media/Garet-Heavy.b6118fd223f41c31e817.woff2",
     "static/media/Garet-Book.woff2": "/ad-portfolio/static/media/Garet-Book.5ea6c56500bb26dee122.woff2",
     "index.html": "/ad-portfolio/index.html",
-    "main.9b93ea92.css.map": "/ad-portfolio/static/css/main.9b93ea92.css.map",
+    "main.c061586a.css.map": "/ad-portfolio/static/css/main.c061586a.css.map",
     "main.254a2166.js.map": "/ad-portfolio/static/js/main.254a2166.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b93ea92.css",
+    "static/css/main.c061586a.css",
     "static/js/main.254a2166.js"
   ]
 }
