@@ -3,14 +3,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding: 215px 200px;
-    border: 2px solid red; /* Debugging */
 }
 
 .pics {
     transition: all 350ms ease;
     cursor: pointer;
     margin-bottom: 12px;
-    background-color: lightgray; /* Debugging */
 }
 
 .pics:hover {
@@ -21,7 +19,6 @@
     .Gallery {
         grid-template-columns: repeat(2, 1fr);
         padding: 200px 20px;
-        border: 2px solid blue; /* Debugging */
     }
 }
 
@@ -29,6 +26,5 @@
     .Gallery {
         grid-template-columns: 1fr;
         padding: 200px 20px;
-        border: 2px solid green; /* Debugging */
     }
 }
