@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import './Gallery.css';
-import CloseIcon from '@mui/icons-material/Close'; // Updated import for MUI v5
 import Lightbox from 'yet-another-react-lightbox';
 import "yet-another-react-lightbox/styles.css";
 import { Captions, Counter, Fullscreen, Thumbnails, Zoom } from 'yet-another-react-lightbox/plugins';
@@ -88,16 +87,16 @@ const Gallery = () => {
 
     return (
         <>
-            <div className="Gallery">
+            <div className="container">
                 {data.map((item, idx) => (
-                    <div className="pics" key={idx} onClick={() => handleClick(idx)}>
-                        <img src={item.imgSrc} alt={item.description} style={{ width: '100%' }} />
+                    <div className="container-box" key={idx} onClick={() => handleClick(idx)}>
+                        <img src={item.imgSrc} alt={item.description} />
                     </div>
                 ))}
             </div>
 
             <Lightbox
-                plugins={[Captions, Counter, Fullscreen, Zoom, Thumbnails]}
+                plugins={[Counter, Fullscreen, Zoom, Thumbnails]}
                 captions={{ showToggle: true, descriptionTextAlign: 'start' }}
                 counter={{ container: { style: { top: 0, bottom: 'unset', left: 0, right: 'unset' } } }}
                 open={index >= 0}

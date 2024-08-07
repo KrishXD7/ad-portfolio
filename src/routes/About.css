@@ -34,7 +34,7 @@
   position: relative;
   right: -100%;
   opacity: 0;
-  top: 50px;
+  top: 125px;
   animation: slideIn 1.25s forwards ease-out;
 }
 

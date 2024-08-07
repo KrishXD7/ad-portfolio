@@ -12,7 +12,9 @@ const About = () => {
         <div className="about-text">
           <h1>About Me</h1>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis iaculis neque. Morbi eu scelerisque lorem. Fusce scelerisque felis at feugiat tempus. Fusce sagittis mi et lorem volutpat aliquam. Suspendisse consectetur eros a gravida luctus. Quisque facilisis sodales arcu vel congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam et nisl id ultricies. Nulla vehicula urna eu cursus sagittis. Proin at tincidunt sem. Sed auctor mi mi, sed cursus lectus imperdiet sed. Fusce congue ac ante vel pharetra. Phasellus congue accumsan viverra.
+          Hi there! I'm Adityesh, a passionate photographer with a love for capturing the beauty in everyday moments. Born and raised in Kolkata, I've always been drawn to the stories that unfold around us. Currently, I'm pursuing a Bachelor of Business Administration in International Business at Narsee Monjee Institute for Management Studies, where I'm learning to blend creativity with strategic thinking.
+
+When I'm not behind the lens, you'll find me exploring new places, seeking inspiration from diverse cultures, or simply enjoying a good cup of coffee. My photography is all about capturing genuine emotions and telling unique stories. I believe that every picture has a tale to tell, and I'm excited to share my journey with you. Let's create something beautiful together!
           </p>
         </div>
         <div className="about-image">

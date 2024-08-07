@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./NavbarStyles.css";
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
-import logoImage from '../adityesh/adityeshlogo-removebg-preview.png';
+import logoImage from '../adityesh/Logo1.jpg';
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);

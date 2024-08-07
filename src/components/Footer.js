@@ -11,12 +11,13 @@ const Footer = () => {
         <Link to="/Contact" className="footer-link">
           Contact me
         </Link>
+        <p className="follow-text">Follow my Socials!</p> {/* Added follow text */}
         <div className="social-icons">
           <a href="https://www.instagram.com/yourphotographerprofile" target="_blank" rel="noopener noreferrer">
-            <InstagramIcon style={{ fontSize: 40, color: '#E1306C' }} />
+            <InstagramIcon style={{ fontSize: 40, color: '#FFFFFF' }} /> {/* Changed color to white */}
           </a>
           <a href="https://twitter.com/yourphotographerprofile" target="_blank" rel="noopener noreferrer">
-            <TwitterIcon style={{ fontSize: 40, color: '#1DA1F2' }} />
+            <TwitterIcon style={{ fontSize: 40, color: '#FFFFFF' }} /> {/* Changed color to white */}
           </a>
         </div>
       </div>
