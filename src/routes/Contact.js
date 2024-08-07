@@ -27,7 +27,7 @@ const Contact = () => {
         </div>
         <div className="contact-right">
           <h2>Text me on WhatsApp</h2>
-          <a href="https://wa.me/7358480891" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/7003890840" target="_blank" rel="noopener noreferrer">
             <WhatsAppIcon fontSize="large" style={{ color: 'black' }} /> {/* Ensure icons are black */}
           </a>
         </div>
